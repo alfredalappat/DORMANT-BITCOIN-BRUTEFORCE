@@ -13,6 +13,15 @@ with open("addresses.txt", "r", encoding="utf-8") as f:
     addresses = {line.strip() for line in f if line.strip()}
 
 
+print(
+      f"*******************************************************************************************************\n"
+      f"Save to             : {output_file:<}")
+print("DORMANT-BITCOIN-BRUTEFORCE")
+time.sleep(1)
+print("DON'T WORRY, THIS CODE IS NOT USING YOUR COMPUTING POWER FOR ME.")
+print("DONATION BTC = bc1qjqmgkuu4qefgwpdq24dvmz60pvjnn7egvc4zke")
+time.sleep(1)
+print("Scanning starts...")
 print("Total unique addresses:", len(addresses))
 def generate_bitcoin_addresses():
     # Generate random 256-bit private key (as hex)
@@ -46,5 +55,5 @@ while True:
     hex_count += 2
     if hex_count%100000==0:
         en=int(time.time())
-        print(hex_count,f"speed = {int(hex_count/(en-st))} per sec")
+        print("Total scanned = ",hex_count,f" || speed = {int(hex_count/(en-st))} keys per sec")
     
