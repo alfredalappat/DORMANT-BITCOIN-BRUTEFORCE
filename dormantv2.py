@@ -43,8 +43,8 @@ def checking(privateKey,addr):
 
 while True:
     generate_bitcoin_addresses()
-    hex_count += 1
-    if hex_count%1000000==0:
+    hex_count += 2
+    if hex_count%100000==0:
         en=int(time.time())
         print(hex_count,f"speed = {int(hex_count/(en-st))} per sec")
     
