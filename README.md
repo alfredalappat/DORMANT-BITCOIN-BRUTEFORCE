@@ -15,5 +15,7 @@ For Android, use pydroid application to run this program...
 NOTE:
 THIS IS ONLY FOR EDUCATIONAL PURPOSE😉.YOU CAN UNDERSTAND THE SECURITY OF BITCOIN USING THIS SCRIPT.
 
+Please click the ⭐ on the top right if you like/use/clone this program.
+
 Donation(BTC)= bc1qjqmgkuu4qefgwpdq24dvmz60pvjnn7egvc4zke
 
